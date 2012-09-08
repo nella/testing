@@ -1,0 +1,33 @@
+{
+	"name": "nella/testing",
+	"type": "library",
+	"description": "Test utils / tools for Nella Framework",
+	"keywords": ["nette", "test", "testing", "tdd", "unittesting"],
+	"homepage": "http://nellafw.org",
+	"license": ["BSD-3-Clause", "GPL-2.0+"],
+	"authors": [
+		{
+			"name": "Patrik Votoček",
+			"email": "patrik@votocek.cz",
+			"homepage": "http://patrik.votocek.cz",
+			"role": "Developer"
+		},
+		{
+			"name": "Nella Project",
+			"homepage": "http://nella-project.org"
+		}
+	],
+	"support":{
+		"issues":"https://github.com/nella/testing/issues",
+		"source":"https://github.com/nella/testing"
+    },
+	"autoload": {
+		"psr-0": {
+			"Nella": "./"
+		}
+	},
+	"require": {
+		"php": ">=5.3.2",
+		"nette/nette": "2.0.*"
+	}
+}
